@@ -5,7 +5,7 @@ python:
 install:
     - pip install robotframework
     - pip install robotframework-selenium2library
-    #  - pip install selenium
+    - pip install selenium
     #  - pip install decorator
     #  - pip install docutils
     #  - "if [[ ${BROWSER} == 'ie' ]]; then pip install ie_only_pkg; fi"
