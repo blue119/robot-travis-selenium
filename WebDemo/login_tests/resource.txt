@@ -8,7 +8,7 @@ Library           Selenium2Library
 
 *** Variables ***
 #${SERVER}         localhost
-${SERVER}         tw.yahoo.com
+${SERVER}         127.0.0.1:7272
 ${BROWSER}        Firefox
 ${DELAY}          0
 ${VALID USER}     demo
