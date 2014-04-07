@@ -17,7 +17,7 @@ before_script:
 script:
     #  - "python test/run_tests.py python $BROWSER --noncritical ignore_${BROWSER}_error"
     #  - cd WebDemo/demoapp && bash -c 'python server.py&' && sleep 3 && cd ../login_tests && pybot valid_login.txt
-    - bash -c 'python WebDemo/demoapp/server.py&' && sleep 3 && pybot --pythonpath RobotDemo/login_tests RobotDemo/login_tests/
+    - bash -c 'python WebDemo/demoapp/server.py&' && sleep 3 && pybot --pythonpath WebDemo/login_tests WebDemo/login_tests/
     #  - cd WebDemo/login_tests && pybot valid_login.txt
 env:
     matrix:
